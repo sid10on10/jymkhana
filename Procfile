@@ -1,1 +1,1 @@
-web: gunicorn gymkhana.wsgi --log-file -
+web: gunicorn jymkhana.wsgi --log-file -
