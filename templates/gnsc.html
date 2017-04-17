@@ -1,0 +1,111 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Games and Sports Council - IIT BHU</title>
+    <script src="/static/gnsc/jquery.min.js" type="text/javascript"></script>
+    <link href="/static/gnsc/index.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="mainbody">
+      <!--Display division that contains the image transisions-->
+      <div id="displaydiv">
+	<div id="quote">
+	  This is the area where the quote for each image is to be entered.......
+	  This is changed automatically by the js functuon that handles the Animations........
+	</div>
+      </div><br><br>
+      <!--End of the display division-->
+
+      <div id="content">
+	<center>
+	<table>
+	  <tbody>
+	    <tr>
+	      <td class="content">
+		<div id="content1">
+		  Sports and games have been a integral part oof the human society for thousands of years. The importance of these things should not be
+		  underestimated. Much of young children's learning comes from participating in games and sports, and this same participation as adults
+		  can lead to happier, healthier and more productive lives.
+		  <strong>History</strong>
+		</div>
+	      </td>
+	      <td class="content">
+		<div id="content2">
+		  Sports and games have been a integral part oof the human society for thousands of years. The importance of these things should not be
+		  underestimated. Much of young children's learning comes from participating in games and sports, and this same participation as adults
+		  can lead to happier, healthier and more productive lives.
+		  <strong>History</strong>
+		</div>
+	      </td>
+	      <td class="content">
+		<div id="content3">
+		  Sports and games have been a integral part oof the human society for thousands of years. The importance of these things should not be
+		  underestimated. Much of young children's learning comes from participating in games and sports, and this same participation as adults
+		  can lead to happier, healthier and more productive lives.
+		  <strong>History</strong>
+		</div>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table></center>
+      </div>
+    </div>
+
+
+    <!--The constant header content starts-->
+    <div id="overlay">
+      <div id="nav">
+	&nbsp&nbsp&nbsp
+	<img id="sportslogo" src="/static/gnsc/logo.png" height="70px">
+	<img id="logotext" src="/static/gnsc/logotext.png" height="70px">
+	<span id="menutext">
+	  <a href="l">HOME</a>&nbsp|
+	  <a href="l">SPORTS</a>&nbsp|
+	  <a href="">UPDATES</a>&nbsp|
+	  <a href="i">FORMS</a>&nbsp|
+	  <a href="">CONTACTS</a>&nbsp|
+	  <a href="">CALENDER</a>&nbsp
+
+	</span>	
+      </div>
+      <div id="tag">
+	<table>
+	  <tbody>
+	    <div><img id="tagimg" src="/static/gnsc/twitter.png"></div>
+	    <div><img id="tagimg" src="/static/gnsc/facebook.png"></div>
+	    <div><img id="tagimg" src="/static/gnsc/youtube.png"></div>
+	    <div><img id="tagimg" src="/static/gnsc/plus.png"></div>
+	  </tbody>
+	</table>
+      </div>
+      <!--<div id="newsbar">
+	<marquee behavious="scroll" scrollamount="100">Spardha starts at so and so date.</marquee>
+      </div>-->
+    </div>
+    <!--The constant header content ends-->
+    <script>
+	  { load staticfiles }
+      var rotateEvery = 4; //seconds
+      var images = [
+     	 {static "gnsc/img2.jpg"},
+      	 {static "gnsc/img3.jpg"},
+		 {static "gnsc/img4.jpg"},
+		 {static "gnsc/img5.jpg"},
+      	 {static "gnsc/img6.jpg"}
+		 ];
+      var curImage = 0;
+      setInterval(delayFunction, rotateEvery*1000);
+      function delayFunction() {
+      if(curImage == images.length){
+      curImage = 0;
+      }
+      $('#displaydiv').fadeOut('slow',function(){
+      $(this).css("background-image",'url('+images[curImage]+')').fadeIn('slow');
+      curImage++;
+      });
+      
+      }
+    </script>
+</body>
+</html>
