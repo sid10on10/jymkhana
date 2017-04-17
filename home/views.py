@@ -10,6 +10,10 @@ def gallery(request):
 
 def home(request):
     return render(request, 'home.html', {})
+	
+	
+def credits(request):
+    return render(request, 'credits.html', {})
 
 
 	
