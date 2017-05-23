@@ -1,5 +1,8 @@
-{% load staticfiles %}
+
 <!DOCTYPE html>
+
+
+{% load staticfiles %}
 
 
 <html lang="en">
@@ -36,7 +39,7 @@
     <div class='container alt-in'>
         <div class='navbar-header'>
             <a href='/' class='navbar-brand'>
-                <img src="{% static "parliament/img/home.png" %} alt="home-icon" width="38px" height="auto"/>
+                <img src={% static "parliament/img/home.png" %} alt="home-icon" width="38px" height="auto"/>
             </a>
             <a class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
                 <span class='icon-bar'></span>
@@ -181,7 +184,7 @@ precedent, and lay the foundation for a healthy student-administration relations
         </div>
 		
 		<div class="col-md-6 col-lg-6 footer-right-pane">
-		   <img src="/static/parliament/img/footer-img.png">		
+		   <img src={% static "parliament/img/footer-img.png" %}>		
 		</div>
         
        <div class="col-md-6 text-right">
