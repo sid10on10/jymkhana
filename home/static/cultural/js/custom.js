@@ -48,7 +48,7 @@
 //Header Background Image Transition
    
 	$("header").bgswitcher({
-  images: ["{% static "fmc/img/header1.jpg" %}", "{% static "fmc/img/header2.jpg" %}", "{% static "fmc/img/header3.jpg" %}", "{% static "fmc/img/header4.jpg" %}"],
+  images: ["{% static "cultural/img/header1.jpg" %}", "{% static "cultural/img/header2.jpg" %}", "{% static "cultural/img/header3.jpg" %}", "{% static "cultural/img/header4.jpg" %}"],
   effect: "blind",
   interval: 4000,
   duration: 1000
