@@ -107,11 +107,15 @@ USE_TZ = True
 #STATIC_ROOT = ''
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
-    'C:/Python27/Scripts/djangoenv/Scripts/jymkhana/jymkhana/static',
-]
-STATIC_ROOT = 'C:/Python27/Scripts/djangoenv/Scripts/jymkhana/jymkhana/static'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS =( os.path.join(STATIC_ROOT, 'parliament/'),
+                    os.path.join(STATIC_ROOT, 'fmc/'),
+                    os.path.join(STATIC_ROOT, 'gnsc/')
+					os.path.join(STATIC_ROOT, 'sntc/'),
+                    os.path.join(STATIC_ROOT, 'cultural/'),
+                    os.path.join(STATIC_ROOT, 'home/'),
+                  )
+
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
