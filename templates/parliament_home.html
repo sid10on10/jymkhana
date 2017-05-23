@@ -7,11 +7,11 @@
         <title>Students' Parliament Portal | IIT (BHU) Varanasi</title>
 
         <!-- Bootstrap minified CSS -->
-        <link href="/static/parliament/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>        
+        <link href={% static "parliament/assets/css/bootstrap.min.css" %} rel="stylesheet" type="text/css"/>        
         <!-- News Ticker CSS -->
-        <link href="/static/parliament/assets/css/news-ticker.css" rel="stylesheet" type="text/css"/>
+        <link href={% static "parliament/assets/css/news-ticker.css" %} rel="stylesheet" type="text/css"/>
         <!--Custom stylesheet-->
-        <link href="/static/parliament/assets/css/custom.css" rel="stylesheet" type="text/css"/>  
+        <link href={% static "parliament/assets/css/custom.css" %} rel="stylesheet" type="text/css"/>  
 
         <style type="text/css">
 
@@ -27,7 +27,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-lg-12">
-                        <img src="/static/parliament/img/header.png" alt="" class="img-responsive">
+                        <img src={% static "parliament/img/header.png" %} alt="" class="img-responsive">
                     </div>
                 </div>
             </div>
@@ -45,18 +45,18 @@
         </div>
         <div class='navbar-collapse collapse' id='navbar'>
             <ul class='nav navbar-nav '>
-			    <li><a target='_blank' href='/static/parliament/minutes/Students_Constitution.pdf'>Constitution</a></li>
+			    <li><a target='_blank' href={% static "parliament/minutes/Students_Constitution.pdf" %}>Constitution</a></li>
 				<li><a href='/parliament/Committee/'>Committees</a></li>
- <!--                 <li >
+                <li>
                     <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
                         Committees<span class='caret'></span>
                     </a>
                      <ul class='dropdown-menu'>
-                        <li><a href='councils/gnsc/index.html'>Games & Sports Council</a></li>                        
-                        <li><a href='councils/cultural/index.html'>Cultural Council</a></li>
-                        <li><a href='councils/fmc/index.html'>Film & Media Council</a></li>              
-                        <li><a href='#'>#Science and Tech Council</a></li>
-                    </ul> -->
+                        <li><a href='/Gnsc/'>Games & Sports Council</a></li>                        
+                        <li><a href='/Cultural/'>Cultural Council</a></li>
+                        <li><a href='/Fmc/'>Film & Media Council</a></li>              
+                        <li><a href='/Sntc/'>#Science and Tech Council</a></li>
+                    </ul> 
                 </li>
                 <li><a href='/parliament/Elections/'>Elections</a></li>
                 <li><a href='/parliament/Minutes/'>Minutes</a></li>
@@ -183,22 +183,22 @@ precedent, and lay the foundation for a healthy student-administration relations
 		   <img src="/static/parliament/img/footer-img.png">		
 		</div>
         
-<!--        <div class="col-md-6 text-right">
-            <img class="img-responsive" src="img/footer-img.png" alt="iitbhu-gate">
-        </div>-->
+       <div class="col-md-6 text-right">
+            <img class="img-responsive" src="{% static "parliament/img/footer-img.png" %} alt="iitbhu-gate">
+        </div>
 
     </div>
 </footer>
 
 
         <!-- JQuery JavaScript -->
-        <script src="/static/parliament/assets/js/jquery.min.js"></script>
+        <script src="{% static "parliament/assets/js/jquery.min.js" %}></script>
         <!-- Bootstrap JavaScript -->
-        <script src="/static/parliament/assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="{% static "parliament/assets/js/bootstrap.min.js" %} type="text/javascript"></script>
         <!-- Custom JavaScript -->
-        <script src="/static/parliament/assets/js/custom.js" type="text/javascript"></script>
+        <script src="{% static "parliament/assets/js/custom.js" %} type="text/javascript"></script>
 
-        <script src="/static/parliament/assets/js/jquery.newsTicker.min.js" type="text/javascript"></script>
+        <script src="{% static "parliament/assets/js/jquery.newsTicker.min.js" %} type="text/javascript"></script>
         <script>
             var nt_example1 = $('#parliament-ticker').newsTicker({
                 row_height: 70,
