@@ -111,7 +111,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
     'C:/Python27/Scripts/djangoenv/Scripts/jymkhana/jymkhana/static',
 ]
-STATIC_ROOT = ''
+STATIC_ROOT = 'C:/Python27/Scripts/djangoenv/Scripts/jymkhana/jymkhana/static'
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
