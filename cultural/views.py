@@ -4,30 +4,28 @@ def cultural(request):
     return render(request, 'cultural.html', {})
 	
 	
-def cine(request):
-    return render(request, 'cine.html', {})
+def fac(request):
+    return render(request, 'fac.html', {})
 	
 
-def design(request):
-    return render(request, 'design.html', {})
+def imc(request):
+    return render(request, 'imc.html', {})
 	
+		
 	
-	
-	
-def outreach(request):
-    return render(request, 'outreach.html', {})
-	
-
-def photography(request):
-    return render(request, 'photography.html', {})
-	
-	
-def media(request):
-    return render(request, 'media.html', {})
+def lit(request):
+    return render(request, 'lit.html', {})
 	
 
-def animation(request):
-    return render(request, 'animation.html', {})
+def masq(request):
+    return render(request, 'masq.html', {})
+	
+	
+def quiz(request):
+    return render(request, 'quiz.html', {})
+	
+
+
 
 
 	
