@@ -42,7 +42,6 @@ INSTALLED_APPS = (
 	'home',
 	'fmc',
 	'cultural',
-	'sntc',
 	'gnsc',
 )
 

@@ -10,7 +10,6 @@ urlpatterns = [
 	url(r'^Fmc/', include('fmc.urls')),
 	url(r'^Gnsc/', include('gnsc.urls')),
 	url(r'^Cultural/', include('cultural.urls')),
-	url(r'^Sntc/', include('sntc.urls')),
 ]
 
 
