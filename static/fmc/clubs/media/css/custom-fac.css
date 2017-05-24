@@ -201,7 +201,7 @@ width: 100%;
 min-height: auto;
 text-align: center;
 color: #fff;
-background-image: url(../img/header1.jpg);
+background-image: url('/static/fmc/clubs/animation/img/header1.jpg');
 background-position: center;
 -webkit-background-size: cover;
 -moz-background-size: cover;

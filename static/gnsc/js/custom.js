@@ -1,9 +1,5 @@
-/*!
- * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-{% load static %}
+
+
 (function($) {
     "use strict"; // Start of use strict
 
@@ -45,29 +41,4 @@
  // Initialize WOW.js Scrolling Animations
     new WOW().init();
 	
-	
-	
-//Header Background Image Transition
-	$("header").bgswitcher({
-  images: ["{% static "fmc/img/header1.jpg" %}", "{% static "fmc/img/header2.jpg" %}", "{% static "fmc/img/header3.jpg" %}", "{% static "fmc/img/header4.jpg" %}"],
-  effect: "blind",
-  interval: 4000,
-  duration: 1000
-});
 
-/*Caption change JavaScript for Header background*/	
-
- $("#caption-text").Morphext({
-    // The [in] animation type. Refer to Animate.css for a list of available animations.
-    animation: "zoomIn",
-    // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
-    separator: "_",
-    // The delay between the changing of each phrase in milliseconds.
-    speed: 4000,
-    complete: function () {
-        // Called after the entrance animation is executed.
-    }
-});
-
- 
- })(jQuery); // End of use strict

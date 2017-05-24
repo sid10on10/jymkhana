@@ -11,18 +11,24 @@ def fac(request):
 def imc(request):
     return render(request, 'imc.html', {})
 	
-		
+def wmc(request):
+    return render(request, 'wmc.html', {})
+
+	
 	
 def lit(request):
     return render(request, 'lit.html', {})
 	
 
-def masq(request):
+def theatre(request):
     return render(request, 'masq.html', {})
 	
 	
 def quiz(request):
     return render(request, 'quiz.html', {})
+	
+def dance(request):
+    return render(request, 'dance.html', {})
 	
 
 

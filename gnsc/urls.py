@@ -6,10 +6,10 @@ from . import views
 urlpatterns = [
 	
 	url(r'^$', views.gnsc, name='gnsc'),
-    url(r'^Clubs/Animation$', views.animation, name='animation'),
-	url(r'^Clubs/Cine$', views.cine, name='cine'),
-	url(r'^Clubs/Design$', views.design, name='design'),
-	url(r'^Clubs/Media$', views.media, name='media'),
-	url(r'^Clubs/Outreach$', views.outreach, name='outreach'),
-	url(r'^Clubs/Photography$', views.photography, name='photography'),
+    url(r'^clubs/animation$', views.animation, name='animation'),
+	url(r'^clubs/cine$', views.cine, name='cine'),
+	url(r'^clubs/design$', views.design, name='design'),
+	url(r'^clubs/media$', views.media, name='media'),
+	url(r'^clubs/outreach$', views.outreach, name='outreach'),
+	url(r'^clubs/photography$', views.photography, name='photography'),
 ]
