@@ -10,6 +10,7 @@ def fac(request):
 
 def imc(request):
     return render(request, 'imc.html', {})
+
 	
 def wmc(request):
     return render(request, 'wmc.html', {})

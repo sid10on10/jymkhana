@@ -7,9 +7,10 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),         
     url(r'^parliament/', include('parliament.urls')),
     url(r'', include('home.urls')),
-	url(r'^Fmc/', include('fmc.urls')),
-	url(r'^Gnsc/', include('gnsc.urls')),
-	url(r'^Cultural/', include('cultural.urls')),
+	url(r'^fmc/', include('fmc.urls')),
+	url(r'^sntc/', include('sntc.urls')),
+	url(r'^gnsc/', include('gnsc.urls')),
+	url(r'^cultural/', include('cultural.urls')),
 ]
 
 
