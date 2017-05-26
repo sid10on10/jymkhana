@@ -1,5 +1,11 @@
 from django.shortcuts import render, get_object_or_404
 
+
+def sntc(request):
+    return render(request, 'sntc.html', {})
+
+
+
 def aero_modelling(request):
     return render(request, 'aero_modelling.html', {})
 	
