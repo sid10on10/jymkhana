@@ -31,6 +31,10 @@ def clubofeconomicsandfinance(request):
     return render(request, 'clubofeconomicsandfinance.html', {})
 	
 	
+def sae_collegiate(request):
+    return render(request, 'sae_collegiate.html', {})
+	
+	
 
 	
 
