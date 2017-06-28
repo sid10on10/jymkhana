@@ -44,6 +44,7 @@ INSTALLED_APPS = (
 	'cultural',
 	'gnsc',
 	'sntc',
+	'fcm',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -102,12 +103,14 @@ USE_L10N = True
 
 USE_TZ = True
 
+FCM_APIKEY = "AIzaSyBn7qnPtnabQMh9p5v5DDdRZ0tCECIbxwU",
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 #STATIC_ROOT = ''
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 STATICFILES_DIRS = (                                                                 
   os.path.join(BASE_DIR, 'static/'),                                                                        
 )    
