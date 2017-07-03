@@ -33,8 +33,10 @@ def clubofeconomicsandfinance(request):
 	
 def sae_collegiate(request):
     return render(request, 'sae_collegiate.html', {})
-	
-	
+
+
+def troc(request):
+    return render(request, 'troc.html', {})
 
 	
 
