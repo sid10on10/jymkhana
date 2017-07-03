@@ -11,6 +11,7 @@ urlpatterns = [
 	url(r'^sntc/', include('sntc.urls')),
 	url(r'^gnsc/', include('gnsc.urls')),
 	url(r'^cultural/', include('cultural.urls')),
+	url(r'fcm/', include('fcm.urls')),
 ]
 
 
