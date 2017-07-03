@@ -27,8 +27,8 @@ def green(request):
     return render(request, 'green.html', {})
 	
 
-def clubofeconomicsandfinance(request):
-    return render(request, 'clubofeconomicsandfinance.html', {})
+def cef(request):
+    return render(request, 'cef.html', {})
 	
 	
 def sae_collegiate(request):
