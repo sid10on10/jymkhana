@@ -38,7 +38,12 @@ def sae_collegiate(request):
 def troc(request):
     return render(request, 'troc.html', {})
 
-	
+def auv(request):
+    return render(request, 'auv.html', {})
 
+def vocowsa(request):
+    return render(request, 'vocowsa.html', {})
 
+def baja(request):
+    return render(request, 'baja.html', {})
 
