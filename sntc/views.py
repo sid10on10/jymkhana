@@ -27,16 +27,26 @@ def green(request):
     return render(request, 'green.html', {})
 	
 
-def clubofeconomicsandfinance(request):
-    return render(request, 'clubofeconomicsandfinance.html', {})
+def cef(request):
+    return render(request, 'cef.html', {})
 	
 	
 def sae_collegiate(request):
     return render(request, 'sae_collegiate.html', {})
-	
-	
-
-	
 
 
+def troc(request):
+    return render(request, 'troc.html', {})
+
+def auv(request):
+    return render(request, 'auv.html', {})
+
+def vocowsa(request):
+    return render(request, 'vocowsa.html', {})
+
+def baja(request):
+    return render(request, 'baja.html', {})
+
+def technex(request):
+    return render(request, 'technex.html', {})
 
