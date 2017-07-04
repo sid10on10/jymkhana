@@ -1,6 +1,4 @@
-
-
-(function($) {
+$(function() {
     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
@@ -23,15 +21,29 @@
         1.4, {
             minFontSize: '5px',
             maxFontSize: '26px'
-        }
-    );
+        } );
+
+var nt_example1 = $('#upcoming-ticker').newsTicker({
+                row_height: 70,
+                max_rows: 8,
+                duration: 3000000,
+                prevButton: $('#upcoming-ticker-prev'),
+                nextButton: $('#upcoming-ticker-next'),
+            });
+   
+$('.dropdown').hover(function() {
+	$('.dropdown-toggle').dropdown("toggle");
+}, function() {
+$('.dropdown-toggle').dropdown("toggle");
+});
 
  // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
             top: 100
         }
-    })
+    });
 
  // Initialize WOW.js Scrolling Animations
     new WOW().init();
+});

@@ -47,3 +47,6 @@ def vocowsa(request):
 def baja(request):
     return render(request, 'baja.html', {})
 
+def technex(request):
+    return render(request, 'technex.html', {})
+

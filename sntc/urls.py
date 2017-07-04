@@ -17,4 +17,5 @@ urlpatterns = [
 	url(r'^teams/auv$', views.auv, name='auv'),
 	url(r'^teams/vocowsa$', views.vocowsa, name='vocowsa'),
 	url(r'^teams/baja$', views.baja, name='baja'),
+        url(r'^technex$', views.technex, name='technex'),
 ]
