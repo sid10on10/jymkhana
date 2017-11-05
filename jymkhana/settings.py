@@ -26,7 +26,7 @@ SECRET_KEY = 'bgenur28(@p*tv*f631n$hhb#1_8i#)*_%xe+3*hdlf3)isu2h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["10.2.60.32"]
 
 
 # Application definition
