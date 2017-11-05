@@ -44,7 +44,6 @@ INSTALLED_APPS = (
 	'cultural',
 	'gnsc',
 	'sntc',
-	'fcm',
 )
 
 MIDDLEWARE_CLASSES = (
