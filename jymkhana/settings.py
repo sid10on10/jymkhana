@@ -26,7 +26,7 @@ SECRET_KEY = 'bgenur28(@p*tv*f631n$hhb#1_8i#)*_%xe+3*hdlf3)isu2h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["10.2.60.32"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -109,11 +109,7 @@ FCM_APIKEY = "AIzaSyBn7qnPtnabQMh9p5v5DDdRZ0tCECIbxwU",
 STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 
 
-STATIC_URL = '/static/'
-
-STATICFILES_DIRS = (                                                                 
-  os.path.join(BASE_DIR, 'static/'),                                                                        
-)    
+STATIC_URL = '/static/'    
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
