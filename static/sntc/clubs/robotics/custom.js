@@ -17,7 +17,7 @@ $(function() {
     })
 
 $("header").bgswitcher({
-  images: ["/static/clubs/robotics/img/header.jpg", "/static/clubs/robotics/img/header2.jpg", "/static/clubs/robotics/img/header3.jpg", "/static/clubs/robotics/img/header4.jpg", "/static/clubs/robotics/img/header5.jpg", "/static/clubs/robotics/img/header6.jpg"],
+  images: ["/static/sntc/clubs/robotics/img/header.jpg", "/static/sntc/clubs/robotics/img/header2.jpg", "/static/sntc/clubs/robotics/img/header3.jpg", "/static/sntc/clubs/robotics/img/header4.jpg", "/static/sntc/clubs/robotics/img/header5.jpg", "/static/sntc/clubs/robotics/img/header6.jpg"],
   effect: "fade",
   interval: 4000,
   duration: 1000

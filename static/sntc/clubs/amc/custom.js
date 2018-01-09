@@ -17,7 +17,7 @@ $(function() {
     })
 
 $("header").bgswitcher({
-  images: ["/static/clubs/amc/img/header.jpg", "/static/clubs/amc/img/header2.jpg", "/static/clubs/amc/img/header3.jpg", "/static/clubs/amc/img/header4.jpg", "/static/clubs/amc/img/header5.jpg", "/static/clubs/amc/img/header6.jpg"],
+  images: ["/static/sntc/clubs/amc/img/header.jpg", "/static/sntc/clubs/amc/img/header2.jpg", "/static/sntc/clubs/amc/img/header3.jpg", "/static/sntc/clubs/amc/img/header4.jpg", "/static/sntc/clubs/amc/img/header5.jpg", "/static/sntc/clubs/amc/img/header6.jpg"],
   effect: "fade",
   interval: 4000,
   duration: 1000

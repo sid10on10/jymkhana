@@ -17,7 +17,7 @@ $(function() {
     })
 
 $("header").bgswitcher({
-  images: ["/static/clubs/astro/img/header.jpg", "/static/clubs/astro/img/header2.jpg", "/static/clubs/astro/img/header3.jpg", "/static/clubs/astro/img/header4.jpg", "/static/clubs/astro/img/header5.jpg", "/static/clubs/astro/img/header6.jpg"],
+  images: ["/static/sntc/clubs/astro/img/header.jpg", "/static/sntc/clubs/astro/img/header2.jpg", "/static/sntc/clubs/astro/img/header3.jpg", "/static/sntc/clubs/astro/img/header4.jpg", "/static/sntc/clubs/astro/img/header5.jpg", "/static/sntc/clubs/astro/img/header6.jpg"],
   effect: "fade",
   interval: 4000,
   duration: 1000
