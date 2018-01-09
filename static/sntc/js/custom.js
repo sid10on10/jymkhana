@@ -17,7 +17,7 @@ $(function() {
     })
 
 $("header").bgswitcher({
-  images: [url('/static/sntc/img/header.jpg'), url('/static/sntc/img/header2.jpg'), url('/static/sntc/img/header3.jpg'), url('/static/sntc/img/header4.jpg'), url('/static/sntc/img/header5.jpg'), url('/static/sntc/img/header6.jpg')]
+  images: ["/static/sntc/img/header.jpg", "/static/sntc/img/header2.jpg", "/static/sntc/img/header3.jpg", "/static/sntc/img/header4.jpg", "/static/sntc/img/header5.jpg", "/static/sntc/img/header6.jpg"]
   effect: "fade",
   interval: 4000,
   duration: 1000
