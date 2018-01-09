@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="Siddhant Singh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Robotics Club, IIT (BHU) Varanasi">
 
-        <title>Fine Arts Club - IIT (BHU) Varanasi</title>
+    <title>Robotics Club - IIT (BHU) Varanasi</title>
+    <link rel="icon" type="image/ico" href="/static/sntc/img/favicon.ico">
 
-        <!-- Bootstrap Core CSS -->
-        <link rel="stylesheet" href="/static/fmc/clubs/animation/css/bootstrap.min.css" type="text/css">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/static/sntc/css/bootstrap.min.css" type="text/css">
 
-        <!-- Custom Fonts -->
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
-        <!-- Plugin CSS -->
-        <link rel="stylesheet" href="/static/fmc/clubs/animation/css/animate.min.css" type="text/css">	
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/static/fmc/clubs/animation/css/custom-fac.css" type="text/css">
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="/static/sntc/css/animate.min.css" type="text/css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/sntc/clubs/robotics/custom.css" type="text/css">
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-
-    </head>
-
-    <body id="page-top">
+  <body id="page-top">
 
         <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
@@ -43,82 +41,110 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">Fine Arts Club
-                        </br><span class="iit-heading normal-font">Gymkhana - IIT BHU</span>
+                    <a class="navbar-brand page-scroll" href="/">Robotics Club
+                    </br><span class="iit-heading normal-font">SnTC - IIT BHU</span>
                     </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a class="page-scroll" href="#about">About</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#portfolio">Magnum opus</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#gallery">Gallery</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#contact">Contact</a>
+                        <li><a class="page-scroll" href="#about">About</a></li>
+                        <li><a class="page-scroll" href="#vision">Vision</a></li>
+                        <li><a class="page-scroll" href="#workshops">Workshops</a></li>
+                        <li><a class="page-scroll" href="#highlights">Highlights</a></li>
+                        <li class="dropdown" id="clubs">
+                        <a data-toggle="dropdown" data-target="#clubs" style="cursor:pointer;">Clubs</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="/clubs/aero_modelling">Aero-Modelling Club</a></li>
+                          <li><a href="/clubs/astronomy">Astronomy Club</a></li>
+                          <li><a href="/clubs/cef">Club of Economics and Finance</a></li>
+                          <li><a href="/clubs/cops">Club of Programmers</a></li>
+                          <li><a href="/clubs/green">Green Club</a></li>
+                          <li><a href="/clubs/robotics">Robotics Club</a></li>
+                          <li><a href="/clubs/sae">Society of Automotive Engineers</a></li>
+                          <li><a href="/clubs/troc">Technical and Rural Outreach Club</a></li>
+                        </ul>
                         </li>
                     </ul>
                 </div>
-                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.container-fluid -->
         </nav>
 
         <header>
             <div class="header-content">
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
-            <div class="caption">
-                <p id="caption-text">
-                    The purpose of art is washing the dust of daily life off our souls. _
-                    'This world is but a canvas to our imagination.' _
-                    'Vision is the art of seeing what is invisible to others.' _
-                    'Draw your pleasure, paint your pleasure, and express your pleasure strongly.
-                </p>
-            </div>
         </header>
 
         <section class="bg-primary" id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h2 class="section-heading inverse-ribbon"><span>About</span></h2>
-
-                        <p class="text-faded">At FAC, we are involved in sketching, painting, calligraphy, cartooning, paper-cutting,
-
-                            sculpting, quilling, 3-D street painting and other cool stuff.
-
-                            We organize events like IIT-Open (internal event of college) and Toolika (during Kashi
-
-                            Yatra) where competitions like Art Marathon, Face-Painting, Card-Making, Sketching etc.
-
-                            are conducted.
-
-                            Apart from the above, we also work together with the teams of KY, Technex and
-
-                            Spardha for the decoration of the college during the fests.
-
-                            FAC has often been adjudged as the best club of the cultural council and has won prizes
-
-                            at cultural fests of other IITs as well.</p>
+                    <div class="col-lg-12 text-center">
+                      <h2 class="section-heading">About | Robotics Club
+                      <hr class="light"></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-9 col-lg-push-1 text-center">
+                      <p class="text-faded">Robotics Club of IIT (BHU) Varanasi is one of the most active clubs in the entire college. It has been a successful club since many years and is growing year by year. It organizes year-long activities for the students especially for the Freshers. The club promotes friendly learning of many of the difficult tasks and topics, and encourages the young minds to develop the robots that would be helpful to mankind in forthcoming future.</p>
+                    </div>
+                    <div class="col-lg-1 col-lg-push-1 text-center">
+                      <br>
+                      <div class="text-center" id="social-media">
+                        <a href="http://www.facebook.com/robotics.iitbhu" class="fa fa-facebook"></a>
+                        <a href="/app" class="fa fa-android"></a>
+                      </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section id="vision">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="section-heading ribbon"><span>Vision</span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 text-center">
+                      <p>The club believes in promoting technology and innovation in the college. It undertakes projects and mentor students in fields like manual robotics, autonomous robotics, embedded systems, etc. The Robotics Club promote robotics in the college not only as a hobby but also as a career option. We try to make the students aware about what is happening in the world of Robotics around the globe. We hope to grow as a team and develop technologies that would take the club to different heights.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <section class="no-padding" id="portfolio">
+        <section id="workshops">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="section-heading ribbon"><span>Workshops</span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                      <p>
+                        <li class="lead">The first workshop was held on 10<small>th</small> August, 2016 on <a href="https://drive.google.com/open?id=0B7rnNwpyKh-bQTgwZGFlU2pmVnM">Basics of Robotics</a>.</li>
+                        <li class="lead">The second workshop was held on 21<small>st</small> August, 2016 on <a href="https://drive.google.com/open?id=0B89RYcVRu4G4Zkxlb2xHc1RMTFU">Introduction to Arduino and Microcontrollers</a>.</li>
+                        <li class="lead">The third workshop was held on 27<small>th</small> August, 2016 on <a href="https://drive.google.com/open?id=0B7rnNwpyKh-bczdrU2VPUmw0NW8">ADC and Bluetooth Technology</a>.</li>
+                        <li class="lead">The fourth workshop was held on 19<small>th</small> October, 2016 on <a href="https://drive.google.com/file/d/0B9pS9OzSAadPTWFhOXpvMEhsWWM/view">Line Following</a>.</li>
+                        <li class="lead">The fifth workshop was held on 20<small>th</small> October, 2016 on <a href="https://drive.google.com/file/d/0B9pS9OzSAadPemJKX2VjZkJnV2M/view">Line Following: Contd.</a>.</li>
+                        <li class="lead">The sixth workshop was held on 27<small>th</small> October, 2016 on "Basics of MATLAB."</li>
+                        <li class="lead">The seventh workshop was held on 6<small>th</small> January, 2017 on <a href="https://drive.google.com/a/itbhu.ac.in/file/d/0B9pS9OzSAadPbVJKNWNkdDdsdms/view?usp=sharing">Image Processing</a>.</li>
+                        <li class="lead">The eigth workshop was held on 7<small>th</small> January, 2017 on <a href="https://drive.google.com/a/itbhu.ac.in/file/d/0B9pS9OzSAadPeEI0cUhJYWNQNDBGOG4tMjNCbUxMcmF2WjEw/view?usp=sharing">Image Processing: Contd.</a>.</li>
+                      </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="no-padding" id="highlights">
 
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading ribbon long-ribbon"><span>One of the best Creation</span></h2>
+                        <h2 class="section-heading ribbon long-ribbon"><span>Highlights</span></h2>
                     </div>
                 </div>
             </div>
@@ -126,90 +152,45 @@
             <div class="container-fluid">
                 <div class="row no-gutter">
                     <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box wow fadeIn" data-wow-delay="0s">
-                            <img src="/static/fmc/clubs/animation/img/portfolio/1.jpg" class="img-responsive" alt="">
+                        <a href="#highlights" class="portfolio-box wow fadeIn" data-wow-delay="0s">
+                            <img src="/static/sntc/clubs/robotics/img/header2.jpg" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
-                                        Category
+                                        Project
                                     </div>
                                     <div class="project-name">
-                                        Project Name
+                                        Brain Signal Processing
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box wow fadeIn" data-wow-delay="0s">
-                            <img src="/static/fmc/clubs/animation/img/portfolio/2.jpg" class="img-responsive" alt="">
+                        <a href="#highlights" class="portfolio-box wow fadeIn" data-wow-delay="0s">
+                          <img src="/static/sntc/clubs/robotics/img/header4.jpg" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
-                                        Category
+                                        Project
                                     </div>
                                     <div class="project-name">
-                                        Project Name
+                                        Home Automation
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box wow fadeIn" data-wow-delay="0s">
-                            <img src="/static/fmc/clubs/animation/img/portfolio/3.jpg" class="img-responsive" alt="">
+                        <a href="#highlights" class="portfolio-box wow fadeIn" data-wow-delay="0s">
+                            <img src="/static/sntc/clubs/robotics/img/header6.jpg" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
-                                        Category
+                                        Project
                                     </div>
                                     <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box wow fadeIn" data-wow-delay="0.1s">
-                            <img src="/static/fmc/clubs/animation/img/portfolio/4.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box wow fadeIn" data-wow-delay="0.1s">
-                            <img src="/static/fmc/clubs/animation/img/portfolio/5.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box wow fadeIn" data-wow-delay="0.1s">
-                            <img src="/static/fmc/clubs/animation/img/portfolio/6.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
+                                        Raspberry Pi Head Mounted Display
                                     </div>
                                 </div>
                             </div>
@@ -218,27 +199,6 @@
                 </div>
             </div>
         </section>
-
-
-        <section id="gallery">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading ribbon"><span>Gallery</span></h2>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Will be available soon</h2>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </section>
 
     <section id="contact" class="bg-contact">
         <div class="container">
@@ -247,27 +207,32 @@
                     <h2 class="section-heading ribbon long-ribbon"><span>Office Bearers</span></h2>
                 </div>
                 <div class="office-bearer col-md-4  text-center wow fadeInLeft" data-wow-delay="0s">
-                    <h4 class="office-bearer-name"> Aadarsh Kumar Singh</h4>
+                  <img class="img-circle" src="/static/sntc/img/pors/Himanshu.png" height="auto">
+                    <h4 class="office-bearer-name">Himanshu Maurya</h4>
                     <h4>(Secretary)</h4>
-                    <h4><i class="fa fa-phone"></i> +918960900763</h4>
-                    <h4><i class="fa fa-envelope-o"></i> 
-                        <a href="mailto:aadarsh.ksingh.ece13@itbhu.ac.in"> aadarsh.ksingh.ece13@itbhu.ac.in</a>
+                    <h4><i class="fa fa-phone"></i>+91-7838058068</h4>
+                    <h4><i class="fa fa-envelope-o"></i>
+                        <a href="mailto:himanshu.maurya.ece15@iitbhu.ac.in">himanshu.maurya.ece15@iitbhu.ac.in</a>
                     </h4>
                 </div>
                 <div class="office-bearer col-md-4  text-center wow fadeInLeft" data-wow-delay=".1s">
-                    <h4 class="office-bearer-name"> Kanika Rajput</h4>
+                  <img class="img-circle" src="/static/sntc/img/pors/Naman.png" height="auto">
+                    <h4 class="office-bearer-name">Naman Sharma</h4>
                     <h4>(Joint Secretary)</h4>
-                    <h4><i class="fa fa-envelope-o"></i> 
-                        <a href="mailto:kanika.rajput.ece13@itbhu.ac.in"> kanika.rajput.ece13@itbhu.ac.in</a>
+                    <h4><i class="fa fa-phone"></i>+91-8696087012</h4>
+                    <h4><i class="fa fa-envelope-o"></i>
+                        <a href="mailto:sourabh.tiwari.mst15@iitbhu.ac.in">naman.sharma.eee15@iitbhu.ac.in</a>
                     </h4>
                 </div>
                 <div class="office-bearer col-md-4  text-center wow fadeInLeft" data-wow-delay=".2s">
-                    <h4 class="office-bearer-name"> Manoj Singh Yen</h4>
+                  <img class="img-circle" src="/static/sntc/img/pors/Soujanya.png" height="auto">
+                    <h4 class="office-bearer-name">Soujanya Madasu</h4>
                     <h4>(Joint Secretary)</h4>
-                    <h4><i class="fa fa-envelope-o"></i> 
-                        <a href="mailto:ymanoj.singh.met14@itbhu.ac.in"> ymanoj.singh.met14@itbhu.ac.in</a>
+                    <h4><i class="fa fa-phone"></i>+91-7232986380</h4>
+                    <h4><i class="fa fa-envelope-o"></i>
+                        <a href="mailto:soujanya.madasu.cer15@iitbhu.ac.in">soujanya.madasu.cer15@iitbhu.ac.in</a>
                     </h4>
-                </div>				
+                </div>
             </div>
         </div>
     </section>
@@ -275,42 +240,38 @@
     <footer>
         <div class="container ">
             <div class="row">
-
-                <div class="col-sm-8 footer-left-pane">
-                    <p class="copyright"> 
+                <!--div class="col-sm-8 footer-left-pane">
+                    <p class="copyright">
                         <a href="http://iitbhu.ac.in/various/copyright.shtml">
-                            <i class="fa fa-copyright"></i> Copyright</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+                            <i class="fa fa-copyright"></i> Copyright</a>&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="http://iitbhu.ac.in/various/disclaimer.shtml">Disclaimer</a>
                     </p>
                     <p class="credit">
                         <a href="http://iitbhu.ac.in/wmes_web/index.html">
                             Developed and Maintained by WMES, IIT BHU
-                        </a> |<a href="http://iitbhu.ac.in/various/credit.html"> Credits</a>
+                        </a> |<a href="/credits/"> Credits</a>
                     </p>
-                </div>
-
+                </div-->
                 <div class="col-sm-4 iit-gate-position">
-                    <img class="iit-gate" src="/static/fmc/clubs/animation/img/footer-img.png" alt="iitbhu-gate">
+                    <img class="iit-gate" src="/static/sntc/img/footer-img.png" alt="iitbhu-gate">
                 </div>
             </div>
         </div>
     </footer>
 
     <!-- jQuery -->
-    <script src="/static/fmc/clubs/animation/js/jquery.js"></script>
+    <script src="/static/sntc/js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="/static/fmc/clubs/animation/js/bootstrap.min.js"></script>
-
+    <script src="/static/sntc/js/bootstrap.min.js"></script>
     <!-- Plugin JavaScript -->
-    <script src="/static/fmc/clubs/animation/js/jquery.easing.min.js"></script>
-    <script src="/static/fmc/clubs/animation/js/jquery.fittext.js"></script>
-    <script src="/static/fmc/clubs/animation/js/wow.min.js"></script>
-    <script src="/static/fmc/clubs/animation/js/morphext.min.js"></script>	
-    <script src="/static/fmc/clubs/animation/js/jquery.bgswitcher.js"></script>	
-
+    <script src="/static/sntc/js/jquery.easing.min.js"></script>
+    <script src="/static/sntc/js/jquery.fittext.js"></script>
+    <script src="/static/sntc/js/wow.min.js"></script>
+    <script src="/static/sntc/js/morphext.min.js"></script>
+    <script src="/static/sntc/js/jquery.bgswitcher.js"></script>
     <!-- Custom Theme JavaScript -->
-    <script src="/static/fmc/clubs/animation/js/custom-fac.js"></script>
+    <script src="/static/sntc/clubs/robotics/custom.js"></script>
 
-</body>
+  </body>
 
 </html>
