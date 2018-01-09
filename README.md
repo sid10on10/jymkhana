@@ -1,2 +1,3 @@
-# jymkhana
-on heroku https://jymkhana.herokuapp.com/
+# Gymkhana-IIT(BHU)
+
+> **gymkhana.iitbhu.ac.in**
